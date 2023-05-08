@@ -1,11 +1,11 @@
 A collection of scripts, tools, widgets, and/or plugins created for streamers and content creators by CareFreeBomb.
 
-###Instructions
+### Instructions
 
 Streamer.bot Actions (.cfb files):
 To add the Actions, use the Import function from within SB to paste the strings found inside these files.
 
-###Socials
+### Socials
 
 Follow me on Twitch: https://www.twitch.tv/carefreebomb
 

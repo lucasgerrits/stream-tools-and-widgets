@@ -8,20 +8,20 @@
  * @version 2024-02-28
  */
 function yugiohCardAddon() {
-	this.addonName = "yugioh_card";
+    this.addonName = "yugioh_card";
 
-	/* returns true if you use this template */
-	this.useThisAddon = function(streamerBotArgs) {
-		return ("addon" in streamerBotArgs) && (streamerBotArgs['addon'] == this.addonName);
-	}
+    /* returns true if you use this template */
+    this.useThisAddon = function(streamerBotArgs) {
+        return ("addon" in streamerBotArgs) && (streamerBotArgs['addon'] == this.addonName);
+    }
 
 	this.template = function(streamerBotArgs) {
-		return "yugioh_card_template";
-	}
+        return "yugioh_card_template";
+    }
 
-	this.getCard = function() {
-		// Uses the free Yu-Gi-Oh! Card Database API: https://ygoprodeck.com/api-guide/
-		const yugiohURL = "https://db.ygoprodeck.com/api/v7/cardinfo.php";
+    this.getCard = function() {
+        // Uses the free Yu-Gi-Oh! Card Database API: https://ygoprodeck.com/api-guide/
+        const yugiohURL = "https://db.ygoprodeck.com/api/v7/cardinfo.php";
         const xhr = new XMLHttpRequest();
         xhr.open('GET', yugiohURL, false); // synchronous
         xhr.send();
@@ -39,23 +39,23 @@ function yugiohCardAddon() {
                 level: randCard.level,
                 attr: randCard.attribute,
             };
-			return card;
+            return card;
         } else {
             console.error('Request failed with status:', xhr.status);
         }
-	}
+    }
 
-	this.addTemplateData = function (streamerBotArgs, templateVars) {
-		const card = this.getCard();
-		templateVars['cardName'] = card.name;
-		templateVars['cardImg'] = card.img;
-		templateVars['cardDesc'] = card.desc;
-	}
+    this.addTemplateData = function (streamerBotArgs, templateVars) {
+        const card = this.getCard();
+        templateVars['cardName'] = card.name;
+        templateVars['cardImg'] = card.img;
+        templateVars['cardDesc'] = card.desc;
+    }
 
-	this.modifyTemplateHtml = function (streamerbotArgs, templateHtml) {
-		templateHtml = templateHtml + "";
-		return templateHtml;
-	}
+    this.modifyTemplateHtml = function (streamerbotArgs, templateHtml) {
+        templateHtml = templateHtml + "";
+        return templateHtml;
+    }
 }
 
 registerAddon(new yugiohCardAddon());

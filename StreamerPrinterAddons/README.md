@@ -4,7 +4,7 @@ The following directories contain various add-ons for [DJ Teo's](https://www.twi
 
 This assumes you even own a thermal printer, which I do not. They were created specifically for [KatLink](https://www.twitch.tv/katlink) who streams lots of indie horror games, speedruns, and more late into the night, and you should go follow her here: https://www.twitch.tv/katlink
 
-### To install an add-on:
+## Add-on Installation
 1. Locate your Streamer.bot directory on your PC.
 2. Open the `teotools \ streamerprinter \ addons` folder inside of it.
 3. Open `assets.js` inside of the local addons folder from step 2 with a text editor of your choice ([Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/) are excellent).
@@ -14,7 +14,7 @@ This assumes you even own a thermal printer, which I do not. They were created s
 7. Inside of Streamer.bot, click the "Import" button at the top and paste in what you just copied in step 6, then hit the Import button at the bottom.
 8. Set the triggers for your new Action inside Streamer.bot which assumes whoever reads this already knows how to do
 
-### Contact:
+## Contact:
 For questions, concerns, or to show thanks, you can find and follow me here:
 
 [Twitter](https://twitter.com/carefreeb0mb)

@@ -1,6 +1,6 @@
 # Streamer Printer Add-ons
 
-The following directories contain various add-ons for [DJ Teo's](https://www.twitch.tv/dj_teo) [Streamerbot Sub Printer package](https://ko-fi.com/s/37c18da75d), which you can download (and while not required, you 100% SHOULD PURCHASE) here: https://ko-fi.com/s/37c18da75d
+The following directories contain various add-ons for [DJ Teo's](https://www.twitch.tv/dj_teo) [Streamerbot Sub Printer package](https://ko-fi.com/s/37c18da75d), which you can download (and while not required, you 100% SHOULD PURCHASE FROM HIM) here: https://ko-fi.com/s/37c18da75d
 
 This assumes you even own a thermal printer, which I do not. They were created specifically for [KatLink](https://www.twitch.tv/katlink) who streams lots of indie horror games, speedruns, and more late into the night, and you should go follow her here: https://www.twitch.tv/katlink
 

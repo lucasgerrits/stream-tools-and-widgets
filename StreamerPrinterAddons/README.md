@@ -18,6 +18,9 @@ If the Add-on has the option of sending data to a Discord Webhook Url, you can s
 4. Click the `New Webhook` button, then click on the newly listed webhook.
 5. The `Copy Webhook URL` button should likely be all you need to paste into a Streamer.bot Sub-Action when noted.
 
+## Misc Notes
+If for whatever reason something isn't printing, but instead opening up a PDF file in a browser, check the `[SP] CONFIG GOES HERE` Action in Streamer.bot. I may have forgotten to `Set argument %Debug%` back to `False` and that probably got included in the most recent export.
+
 ## Contact:
 For questions, concerns, or to show thanks, you can find and follow me here:
 

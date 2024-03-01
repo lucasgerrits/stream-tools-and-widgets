@@ -1,0 +1,3 @@
+An add-on for [DJ_Teo's Sub Printer](https://ko-fi.com/s/37c18da75d) [Streamer.bot](https://streamer.bot/) extension that fetches an image of a non-existent cat, to be used as a channel point reward or for twitch events.
+
+General installation instructions for all sub printer add-ons can be found in [parent directory](https://github.com/lucasgerrits/stream-tools-and-widgets/tree/master/StreamerPrinterAddons).

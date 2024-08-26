@@ -24,7 +24,7 @@ If for whatever reason something isn't printing, but instead opening up a PDF fi
 ## Contact:
 For questions, concerns, or to show thanks, you can find and follow me here:
 
-[Twitter](https://twitter.com/carefreeb0mb)
+[Email](mailto:lucasjgerrits@gmail.com)
 
 [Twitch](https://www.twitch.tv/carefreebomb)
 

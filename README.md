@@ -9,10 +9,10 @@ To add the Actions, use the Import function from within SB to paste the strings 
 
 More specific steps can be found in subdirectory nested README files
 
-## Socials
+## Contact
 
-Watch me code live on Twitch: https://www.twitch.tv/carefreebomb
+[Email](mailto:lucasjgerrits@gmail.com)
 
-Follow my unhinged Twitter: https://www.twitter.com/carefreeb0mb
+[Twitch](https://www.twitch.tv/carefreebomb)
 
-Ask for help and share memes of cats on the Discord: https://discord.gg/0X84YV4Sn1v0wyUa
+[Discord](https://discord.gg/0X84YV4Sn1v0wyUa)
